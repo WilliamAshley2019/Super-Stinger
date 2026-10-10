@@ -1,5 +1,5 @@
 {
-  "Name": "SuperStinger",
+  "Name": "Stingerb",
   "Version": "1.0.0",
   "Factory Info": {
     "Vendor": "William Ashley Music",
@@ -13,9 +13,9 @@
   },
   "Classes": [
     {
-      "CID": "ABCDEF019182FAEB57414D4153535447",
+      "CID": "ABCDEF019182FAEB57414D4153544E47",
       "Category": "Audio Module Class",
-      "Name": "SuperStinger",
+      "Name": "Stingerb",
       "Vendor": "William Ashley Music",
       "Version": "1.0.0",
       "SDKVersion": "VST 3.8.0",
@@ -29,9 +29,9 @@
       ],
     },
     {
-      "CID": "ABCDEF011234ABCD57414D4153535447",
+      "CID": "ABCDEF011234ABCD57414D4153544E47",
       "Category": "Component Controller Class",
-      "Name": "SuperStinger",
+      "Name": "Stingerb",
       "Vendor": "William Ashley Music",
       "Version": "1.0.0",
       "SDKVersion": "VST 3.8.0",

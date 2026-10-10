@@ -2374,6 +2374,1176 @@ const std::vector<PresetManager::FactoryPreset>& PresetManager::getFactoryPreset
                 p("dxfm_coarse",      0.20f),
                 p("dxfm_octave",      0.50f),
                 }));
+
+          //JV Piano(5 presets)
+            
+                // ---------------------------------------------------------------------
+                // 63 — JV Bright E.Piano
+                // The JV-880's signature bright tine piano. DX FM dominant.
+                // ---------------------------------------------------------------------
+                presets.push_back(make("JV Bright E.Piano", "JV Piano", {
+                    p("dxfm_enable",   1.0f),
+                    p("dxfm_blend",    1.0f),
+                    p("dxfm_car_atk",  0.00f),
+                    p("dxfm_car_dec",  0.72f),
+                    p("dxfm_car_rel",  0.55f),
+                    p("dxfm_wave",     0.52f),
+                    p("dxfm_mod_init", 0.42f),
+                    p("dxfm_mod_dec",  0.62f),
+                    p("dxfm_mod_sus",  0.14f),
+                    p("dxfm_mod_rel",  0.72f),
+                    p("dxfm_mod_vel",  0.82f),
+                    p("dxfm_coarse",   0.42f),
+                    p("dxfm_fine",     0.24f),
+                    p("dxfm_mod_thru", 0.08f),
+                    p("dxfm_octave",   0.52f),
+                    p("dxfm_tune",     0.50f),
+                    p("osc1_shape",    0.0f),
+                    p("osc1_amount",   0.30f),
+                    p("osc2_shape",    3.0f),
+                    p("osc2_coarse",  12.0f),
+                    p("osc2_amount",   0.20f),
+                    p("osc3_amount",   0.10f),
+                    p("flt_cutoff", 4200.0f),
+                    p("flt_reso",      0.15f),
+                    p("flt_env_amt",   0.30f),
+                    p("flt_keytrack",  0.20f),
+                    p("flt_type",      0.0f),
+                    p("amp_attack",    0.00f),
+                    p("amp_decay",     0.65f),
+                    p("amp_sustain",   0.35f),
+                    p("amp_release",   0.55f),
+                    p("flt_attack",    0.00f),
+                    p("flt_decay",     0.55f),
+                    p("flt_sustain",   0.30f),
+                    p("flt_release",   0.50f),
+                    p("vel_to_amp",    0.75f),
+                    p("vel_to_filter", 0.30f),
+                    }));
+
+            // ---------------------------------------------------------------------
+            // 64 — JV Soft Rhodes
+            // Mellow tine piano for ballads. Warmer FM, softer attack.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Soft Rhodes", "JV Piano", {
+                p("dxfm_enable",   1.0f),
+                p("dxfm_blend",    1.0f),
+                p("dxfm_car_atk",  0.00f),
+                p("dxfm_car_dec",  0.60f),
+                p("dxfm_car_rel",  0.65f),
+                p("dxfm_wave",     0.22f),
+                p("dxfm_mod_init", 0.28f),
+                p("dxfm_mod_dec",  0.45f),
+                p("dxfm_mod_sus",  0.18f),
+                p("dxfm_mod_rel",  0.72f),
+                p("dxfm_mod_vel",  0.60f),
+                p("dxfm_coarse",   0.38f),
+                p("dxfm_fine",     0.00f),
+                p("dxfm_mod_thru", 0.18f),
+                p("dxfm_octave",   0.50f),
+                p("dxfm_tune",     0.50f),
+                p("flt_cutoff", 3000.0f),
+                p("flt_reso",      0.10f),
+                p("flt_env_amt",   0.25f),
+                p("flt_keytrack",  0.25f),
+                p("flt_type",      0.0f),
+                p("amp_attack",    0.02f),
+                p("amp_decay",     0.62f),
+                p("amp_sustain",   0.45f),
+                p("amp_release",   0.68f),
+                p("flt_attack",    0.03f),
+                p("flt_decay",     0.55f),
+                p("flt_sustain",   0.35f),
+                p("flt_release",   0.60f),
+                p("vel_to_amp",    0.60f),
+                }));
+
+            // ---------------------------------------------------------------------
+            // 65 — JV Tine Bell Piano
+            // Bell-heavy E.Piano. The FM modulator adds a strong bell partial.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Tine Bell Piano", "JV Piano", {
+                p("dxfm_enable",   1.0f),
+                p("dxfm_blend",    1.0f),
+                p("dxfm_car_atk",  0.00f),
+                p("dxfm_car_dec",  0.68f),
+                p("dxfm_car_rel",  0.60f),
+                p("dxfm_wave",     0.55f),
+                p("dxfm_mod_init", 0.60f),
+                p("dxfm_mod_dec",  0.55f),
+                p("dxfm_mod_sus",  0.05f),
+                p("dxfm_mod_rel",  0.85f),
+                p("dxfm_mod_vel",  0.90f),
+                p("dxfm_coarse",   0.55f),
+                p("dxfm_fine",     0.20f),
+                p("dxfm_mod_thru", 0.14f),
+                p("dxfm_octave",   0.55f),
+                p("dxfm_tune",     0.50f),
+                p("flt_cutoff", 5200.0f),
+                p("flt_reso",      0.12f),
+                p("flt_env_amt",   0.30f),
+                p("amp_attack",    0.00f),
+                p("amp_decay",     0.60f),
+                p("amp_sustain",   0.25f),
+                p("amp_release",   0.65f),
+                p("flt_attack",    0.00f),
+                p("flt_decay",     0.50f),
+                p("flt_sustain",   0.20f),
+                p("flt_release",   0.55f),
+                p("vel_to_amp",    0.80f),
+                p("delay_mix",     0.15f),
+                p("delay_time_ms", 400.0f),
+                p("delay_feedback", 0.25f),
+                }));
+
+            // ---------------------------------------------------------------------
+            // 66 — JV Jazz E.Piano
+            // The softer jazz-voiced E.Piano. Warm, dark, sustained.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Jazz E.Piano", "JV Piano", {
+                p("dxfm_enable",   1.0f),
+                p("dxfm_blend",    1.0f),
+                p("dxfm_car_atk",  0.00f),
+                p("dxfm_car_dec",  0.55f),
+                p("dxfm_car_rel",  0.30f),
+                p("dxfm_wave",     0.16f),
+                p("dxfm_mod_init", 0.35f),
+                p("dxfm_mod_dec",  0.42f),
+                p("dxfm_mod_sus",  0.28f),
+                p("dxfm_mod_rel",  0.85f),
+                p("dxfm_mod_vel",  0.55f),
+                p("dxfm_coarse",   0.42f),
+                p("dxfm_fine",     0.00f),
+                p("dxfm_mod_thru", 0.10f),
+                p("dxfm_octave",   0.48f),
+                p("dxfm_tune",     0.50f),
+                p("flt_cutoff", 2800.0f),
+                p("flt_reso",      0.10f),
+                p("flt_env_amt",   0.20f),
+                p("flt_keytrack",  0.20f),
+                p("flt_type",      0.0f),
+                p("amp_attack",    0.02f),
+                p("amp_decay",     0.60f),
+                p("amp_sustain",   0.50f),
+                p("amp_release",   0.55f),
+                p("flt_attack",    0.03f),
+                p("flt_decay",     0.50f),
+                p("flt_sustain",   0.40f),
+                p("flt_release",   0.50f),
+                p("vel_to_amp",    0.55f),
+                }));
+
+            // ---------------------------------------------------------------------
+            // 67 — JV Honky Tonk
+            // Detuned acoustic-style piano. The JV-880 Honky Tonk character.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Honky Tonk", "JV Piano", {
+                p("dxfm_enable",   1.0f),
+                p("dxfm_blend",    0.85f),
+                p("dxfm_car_atk",  0.00f),
+                p("dxfm_car_dec",  0.55f),
+                p("dxfm_car_rel",  0.35f),
+                p("dxfm_wave",     0.40f),
+                p("dxfm_mod_init", 0.32f),
+                p("dxfm_mod_dec",  0.50f),
+                p("dxfm_mod_sus",  0.14f),
+                p("dxfm_mod_rel",  0.60f),
+                p("dxfm_mod_vel",  0.65f),
+                p("dxfm_coarse",   0.40f),
+                p("dxfm_fine",     0.55f),
+                p("dxfm_mod_thru", 0.10f),
+                p("dxfm_octave",   0.50f),
+                p("dxfm_tune",     0.55f),
+                p("osc1_shape",    0.0f),
+                p("osc1_amount",   0.35f),
+                p("osc1_coarse",   0.0f),
+                p("osc1_fine",     8.0f),
+                p("osc2_shape",    3.0f),
+                p("osc2_coarse",   0.0f),
+                p("osc2_fine",    -8.0f),
+                p("osc2_amount",   0.30f),
+                p("osc3_amount",   0.10f),
+                p("flt_cutoff", 3800.0f),
+                p("flt_reso",      0.15f),
+                p("flt_env_amt",   0.35f),
+                p("amp_attack",    0.00f),
+                p("amp_decay",     0.55f),
+                p("amp_sustain",   0.30f),
+                p("amp_release",   0.40f),
+                p("flt_attack",    0.00f),
+                p("flt_decay",     0.45f),
+                p("flt_sustain",   0.25f),
+                p("flt_release",   0.35f),
+                p("vel_to_amp",    0.75f),
+                }));
+            // JV Brass(5 presets)
+              
+                // ---------------------------------------------------------------------
+                // 68 — JV Brass Section
+                // The JV-880 brass section. Saw stack with soft filter attack.
+                // ---------------------------------------------------------------------
+                presets.push_back(make("JV Brass Section", "JV Brass", {
+                    p("voice_config",     1.0f),    // Dual for slight detune
+                    p("voice_spread",     0.35f),
+                    p("osc1_shape",       0.0f),    // Saw
+                    p("osc1_amount",      1.0f),
+                    p("osc1_fine",        5.0f),
+                    p("osc2_shape",       0.0f),    // Saw
+                    p("osc2_amount",      0.75f),
+                    p("osc2_fine",       -5.0f),
+                    p("osc3_amount",      0.15f),
+                    p("osc_mix",          0.50f),
+                    p("flt_type",         1.0f),    // LP24
+                    p("flt_model",        0.0f),
+                    p("flt_cutoff",    2400.0f),
+                    p("flt_reso",         0.22f),
+                    p("flt_env_amt",      0.55f),
+                    p("flt_keytrack",     0.25f),
+                    p("amp_attack",       0.05f),
+                    p("amp_decay",        0.85f),
+                    p("amp_sustain",      0.85f),
+                    p("amp_release",      0.35f),
+                    p("flt_attack",       0.12f),
+                    p("flt_decay",        0.55f),
+                    p("flt_sustain",      0.55f),
+                    p("flt_release",      0.40f),
+                    p("vel_to_amp",       0.60f),
+                    p("vel_to_filter",    0.30f),
+                    }));
+
+            // ---------------------------------------------------------------------
+            // 69 — JV St.Bright TB
+            // Bright brass with the JV's characteristic edge.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV St.Bright TB", "JV Brass", {
+                p("voice_config",     1.0f),
+                p("voice_spread",     0.40f),
+                p("osc1_shape",       0.0f),
+                p("osc1_amount",      1.0f),
+                p("osc1_fine",        6.0f),
+                p("osc2_shape",       1.0f),    // Square for bite
+                p("osc2_amount",      0.55f),
+                p("osc2_fine",       -6.0f),
+                p("osc3_amount",      0.10f),
+                p("osc_mix",          0.45f),
+                p("pulse_width",      0.42f),
+                p("flt_type",         1.0f),
+                p("flt_model",        0.0f),
+                p("flt_cutoff",    3400.0f),
+                p("flt_reso",         0.35f),
+                p("flt_env_amt",      0.60f),
+                p("flt_keytrack",     0.20f),
+                p("amp_attack",       0.03f),
+                p("amp_decay",        0.80f),
+                p("amp_sustain",      0.88f),
+                p("amp_release",      0.30f),
+                p("flt_attack",       0.08f),
+                p("flt_decay",        0.50f),
+                p("flt_sustain",      0.55f),
+                p("flt_release",      0.35f),
+                p("vel_to_amp",       0.55f),
+                p("vel_to_filter",    0.35f),
+                p("dist_on",          1.0f),
+                p("dist_type",        0.0f),
+                p("dist_drive",       1.3f),
+                p("dist_tone",     5500.0f),
+                p("dist_mix",         0.20f),
+                }));
+
+            // ---------------------------------------------------------------------
+            // 70 — JV Trumpet
+            // Solo trumpet. Bright, brassy, sustained.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Trumpet", "JV Brass", {
+                p("voice_config",     0.0f),
+                p("osc1_shape",       0.0f),
+                p("osc1_amount",      1.0f),
+                p("osc2_shape",       0.0f),
+                p("osc2_coarse",     12.0f),
+                p("osc2_amount",      0.30f),
+                p("osc3_amount",      0.08f),
+                p("osc_mix",          0.60f),
+                p("flt_type",         1.0f),
+                p("flt_model",        0.0f),
+                p("flt_cutoff",    3800.0f),
+                p("flt_reso",         0.30f),
+                p("flt_env_amt",      0.42f),
+                p("flt_keytrack",     0.30f),
+                p("amp_attack",       0.04f),
+                p("amp_decay",        0.90f),
+                p("amp_sustain",      0.90f),
+                p("amp_release",      0.25f),
+                p("flt_attack",       0.06f),
+                p("flt_decay",        0.60f),
+                p("flt_sustain",      0.65f),
+                p("flt_release",      0.30f),
+                p("vel_to_amp",       0.65f),
+                p("vel_to_filter",    0.25f),
+                p("lfo1_target",      0.0f),    // Pitch — subtle vibrato
+                p("lfo1_freq",        5.80f),
+                p("lfo1_amount",      0.05f),
+                p("lfo1_delay",       0.65f),
+                }));
+
+            // ---------------------------------------------------------------------
+            // 71 — JV Trombone
+            // Solo trombone. Darker brass with more body.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Trombone", "JV Brass", {
+                p("voice_config",     0.0f),
+                p("osc1_shape",       0.0f),
+                p("osc1_coarse",     -12.0f),
+                p("osc1_amount",      1.0f),
+                p("osc2_shape",       0.0f),
+                p("osc2_coarse",      0.0f),
+                p("osc2_amount",      0.35f),
+                p("osc3_amount",      0.15f),
+                p("osc_mix",          0.55f),
+                p("flt_type",         1.0f),
+                p("flt_cutoff",    2600.0f),
+                p("flt_reso",         0.25f),
+                p("flt_env_amt",      0.45f),
+                p("flt_keytrack",     0.20f),
+                p("amp_attack",       0.05f),
+                p("amp_decay",        0.90f),
+                p("amp_sustain",      0.88f),
+                p("amp_release",      0.30f),
+                p("flt_attack",       0.08f),
+                p("flt_decay",        0.55f),
+                p("flt_sustain",      0.60f),
+                p("flt_release",      0.35f),
+                p("vel_to_amp",       0.65f),
+                p("lfo1_target",      0.0f),
+                p("lfo1_freq",        5.20f),
+                p("lfo1_amount",      0.06f),
+                p("lfo1_delay",       0.70f),
+                }));
+
+            // ---------------------------------------------------------------------
+            // 72 — JV Brass Fall
+            // The classic brass fall — pitch drop on attack.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Brass Fall", "JV Brass", {
+                p("voice_config",     1.0f),
+                p("voice_spread",     0.30f),
+                p("osc1_shape",       0.0f),
+                p("osc1_amount",      1.0f),
+                p("osc2_shape",       0.0f),
+                p("osc2_amount",      0.60f),
+                p("osc2_coarse",      12.0f),
+                p("osc3_amount",      0.10f),
+                p("flt_type",         1.0f),
+                p("flt_cutoff",    2800.0f),
+                p("flt_reso",         0.30f),
+                p("flt_env_amt",      0.50f),
+                p("amp_attack",       0.00f),
+                p("amp_decay",        0.30f),
+                p("amp_sustain",      0.00f),
+                p("amp_release",      0.30f),
+                p("flt_attack",       0.00f),
+                p("flt_decay",        0.25f),
+                p("flt_sustain",      0.00f),
+                p("flt_release",      0.25f),
+                p("vel_to_amp",       0.80f),
+                // Mod env drops Osc 2 pitch (destination 3) for the "fall"
+                p("modenv_attack",    0.10f),
+                p("modenv_decay",     0.35f),
+                p("modenv_amount",   -0.65f),
+                p("modenv_dest",      3.0f),    // Osc 2 pitch
+                }));
+            // JV Strings(5 presets)
+               
+                // ---------------------------------------------------------------------
+                // 73 — JV Violin
+                // Solo violin with subtle vibrato.
+                // ---------------------------------------------------------------------
+                presets.push_back(make("JV Violin", "JV Strings", {
+                    p("voice_config",     1.0f),
+                    p("voice_spread",     0.20f),
+                    p("osc1_shape",       0.0f),    // Saw
+                    p("osc1_amount",      1.0f),
+                    p("osc2_shape",       0.0f),
+                    p("osc2_fine",        6.0f),
+                    p("osc2_amount",      0.55f),
+                    p("osc3_amount",      0.08f),
+                    p("osc_mix",          0.55f),
+                    p("flt_type",         1.0f),
+                    p("flt_cutoff",    3400.0f),
+                    p("flt_reso",         0.30f),
+                    p("flt_env_amt",      0.40f),
+                    p("flt_keytrack",     0.35f),
+                    p("amp_attack",       0.12f),
+                    p("amp_decay",        0.85f),
+                    p("amp_sustain",      0.85f),
+                    p("amp_release",      0.55f),
+                    p("flt_attack",       0.15f),
+                    p("flt_decay",        0.65f),
+                    p("flt_sustain",      0.60f),
+                    p("flt_release",      0.55f),
+                    p("vel_to_amp",       0.50f),
+                    p("lfo1_target",      0.0f),    // Pitch — vibrato
+                    p("lfo1_freq",        5.60f),
+                    p("lfo1_amount",      0.08f),
+                    p("lfo1_delay",       0.55f),
+                    }));
+
+            // ---------------------------------------------------------------------
+            // 74 — JV Slow Strings
+            // Lush string section, slow attack, wide detune.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Slow Strings", "JV Strings", {
+                p("voice_config",     1.0f),
+                p("voice_spread",     0.60f),
+                p("osc1_shape",       0.0f),
+                p("osc1_amount",      1.0f),
+                p("osc1_fine",       -8.0f),
+                p("osc2_shape",       0.0f),
+                p("osc2_amount",      0.85f),
+                p("osc2_fine",        8.0f),
+                p("osc3_amount",      0.20f),
+                p("osc_mix",          0.50f),
+                p("flt_type",         0.0f),    // LP12
+                p("flt_cutoff",    2800.0f),
+                p("flt_reso",         0.15f),
+                p("flt_env_amt",      0.30f),
+                p("flt_keytrack",     0.30f),
+                p("amp_attack",       0.40f),
+                p("amp_decay",        0.70f),
+                p("amp_sustain",      0.90f),
+                p("amp_release",      0.85f),
+                p("flt_attack",       0.45f),
+                p("flt_decay",        0.65f),
+                p("flt_sustain",      0.70f),
+                p("flt_release",      0.85f),
+                p("vel_to_amp",       0.30f),
+                p("lfo1_target",      4.0f),    // Filter
+                p("lfo1_freq",        0.15f),
+                p("lfo1_amount",      0.15f),
+                p("lfo1_delay",       0.60f),
+                p("delay_mix",        0.20f),
+                p("delay_time_ms",  500.0f),
+                p("delay_feedback",   0.35f),
+                }));
+
+            // ---------------------------------------------------------------------
+            // 75 — JV Tremolo Strings
+            // Strings with amp-modulated tremolo. Classic film-score texture.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Tremolo Strings", "JV Strings", {
+                p("voice_config",     1.0f),
+                p("voice_spread",     0.55f),
+                p("osc1_shape",       0.0f),
+                p("osc1_amount",      1.0f),
+                p("osc2_shape",       0.0f),
+                p("osc2_fine",       10.0f),
+                p("osc2_amount",      0.80f),
+                p("osc3_amount",      0.15f),
+                p("flt_type",         0.0f),
+                p("flt_cutoff",    3200.0f),
+                p("flt_reso",         0.15f),
+                p("flt_env_amt",      0.25f),
+                p("amp_attack",       0.25f),
+                p("amp_decay",        0.65f),
+                p("amp_sustain",      0.85f),
+                p("amp_release",      0.70f),
+                p("lfo1_target",      5.0f),    // Amp — tremolo
+                p("lfo1_shape",       0.0f),    // Sine
+                p("lfo1_freq",        5.50f),
+                p("lfo1_amount",      0.35f),
+                p("lfo1_delay",       0.20f),
+                p("vel_to_amp",       0.35f),
+                }));
+
+            // ---------------------------------------------------------------------
+            // 76 — JV Pizzicato
+            // Short plucked strings. Filter env does the work.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Pizzicato", "JV Strings", {
+                p("voice_config",     0.0f),
+                p("osc1_shape",       0.0f),
+                p("osc1_amount",      1.0f),
+                p("osc2_shape",       0.0f),
+                p("osc2_coarse",      7.0f),
+                p("osc2_amount",      0.25f),
+                p("osc3_amount",      0.10f),
+                p("osc_mix",          0.60f),
+                p("flt_type",         1.0f),    // LP24
+                p("flt_cutoff",    2200.0f),
+                p("flt_reso",         0.45f),
+                p("flt_env_amt",      0.70f),
+                p("flt_keytrack",     0.25f),
+                p("amp_attack",       0.00f),
+                p("amp_decay",        0.25f),
+                p("amp_sustain",      0.00f),
+                p("amp_release",      0.15f),
+                p("flt_attack",       0.00f),
+                p("flt_decay",        0.20f),
+                p("flt_sustain",      0.00f),
+                p("flt_release",      0.15f),
+                p("vel_to_amp",       0.85f),
+                p("vel_to_filter",    0.40f),
+                }));
+
+            // ---------------------------------------------------------------------
+            // 77 — JV Chamber Strings
+            // Small ensemble strings, warm, close-miked character.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Chamber Strings", "JV Strings", {
+                p("voice_config",     1.0f),
+                p("voice_spread",     0.45f),
+                p("osc1_shape",       0.0f),
+                p("osc1_amount",      1.0f),
+                p("osc2_shape",       0.0f),
+                p("osc2_fine",        7.0f),
+                p("osc2_amount",      0.70f),
+                p("osc3_amount",      0.18f),
+                p("flt_type",         0.0f),
+                p("flt_cutoff",    3000.0f),
+                p("flt_reso",         0.20f),
+                p("flt_env_amt",      0.35f),
+                p("flt_keytrack",     0.30f),
+                p("amp_attack",       0.20f),
+                p("amp_decay",        0.75f),
+                p("amp_sustain",      0.88f),
+                p("amp_release",      0.65f),
+                p("flt_attack",       0.25f),
+                p("flt_decay",        0.65f),
+                p("flt_sustain",      0.65f),
+                p("flt_release",      0.60f),
+                p("vel_to_amp",       0.40f),
+                }));
+            // JV Organ(4 presets)
+               
+                // ---------------------------------------------------------------------
+                // 78 — JV Pipe Organ
+                // Principal 8' stop. Additive stacked squares.
+                // ---------------------------------------------------------------------
+                presets.push_back(make("JV Pipe Organ", "JV Organ", {
+                    p("voice_config",     0.0f),
+                    p("osc1_shape",       1.0f),    // Square
+                    p("osc1_coarse",      0.0f),
+                    p("osc1_amount",      1.0f),
+                    p("osc2_shape",       1.0f),
+                    p("osc2_coarse",     12.0f),    // Octave up
+                    p("osc2_amount",      0.55f),
+                    p("osc3_shape",       0.0f),
+                    p("osc3_amount",      0.35f),   // Sub for weight
+                    p("osc_mix",          0.55f),
+                    p("pulse_width",      0.50f),
+                    p("flt_type",         0.0f),
+                    p("flt_cutoff",    5500.0f),
+                    p("flt_reso",         0.05f),
+                    p("flt_env_amt",      0.05f),
+                    p("amp_attack",       0.08f),
+                    p("amp_decay",        0.90f),
+                    p("amp_sustain",      0.95f),
+                    p("amp_release",      0.25f),
+                    p("vel_to_amp",       0.20f),
+                    }));
+
+            // ---------------------------------------------------------------------
+            // 79 — JV Church Organ
+            // Fuller church organ with more stops stacked.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Church Organ", "JV Organ", {
+                p("voice_config",     0.0f),
+                p("osc1_shape",       1.0f),
+                p("osc1_amount",      1.0f),
+                p("osc2_shape",       1.0f),
+                p("osc2_coarse",     12.0f),
+                p("osc2_amount",      0.65f),
+                p("osc3_shape",       0.0f),
+                p("osc3_amount",      0.50f),
+                p("osc_mix",          0.55f),
+                p("pulse_width",      0.48f),
+                p("flt_type",         0.0f),
+                p("flt_cutoff",    6000.0f),
+                p("flt_reso",         0.05f),
+                p("amp_attack",       0.15f),
+                p("amp_decay",        0.92f),
+                p("amp_sustain",      0.98f),
+                p("amp_release",      0.55f),
+                p("delay_mix",        0.15f),
+                p("delay_time_ms",  700.0f),
+                p("delay_feedback",   0.40f),
+                }));
+
+            // ---------------------------------------------------------------------
+            // 80 — JV Rock Organ
+            // Bright, cutting organ with a bit of overdrive. Classic rock texture.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Rock Organ", "JV Organ", {
+                p("voice_config",     0.0f),
+                p("osc1_shape",       1.0f),
+                p("osc1_amount",      1.0f),
+                p("osc2_shape",       1.0f),
+                p("osc2_coarse",     12.0f),
+                p("osc2_amount",      0.70f),
+                p("osc3_amount",      0.20f),
+                p("osc_mix",          0.55f),
+                p("pulse_width",      0.42f),
+                p("flt_type",         0.0f),
+                p("flt_cutoff",    5000.0f),
+                p("flt_reso",         0.15f),
+                p("amp_attack",       0.02f),
+                p("amp_decay",        0.85f),
+                p("amp_sustain",      0.95f),
+                p("amp_release",      0.30f),
+                p("dist_on",          1.0f),
+                p("dist_type",        0.0f),    // Soft
+                p("dist_drive",       1.6f),
+                p("dist_tone",     6500.0f),
+                p("dist_mix",         0.25f),
+                }));
+
+            // ---------------------------------------------------------------------
+            // 81 — JV Jazz Organ
+            // Mellow jazz organ with a warm rotary-speaker feel via subtle delay.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Jazz Organ", "JV Organ", {
+                p("voice_config",     0.0f),
+                p("osc1_shape",       1.0f),
+                p("osc1_amount",      1.0f),
+                p("osc2_shape",       1.0f),
+                p("osc2_coarse",     12.0f),
+                p("osc2_amount",      0.50f),
+                p("osc3_shape",       0.0f),
+                p("osc3_amount",      0.30f),
+                p("osc_mix",          0.55f),
+                p("flt_type",         0.0f),
+                p("flt_cutoff",    3500.0f),
+                p("flt_reso",         0.10f),
+                p("amp_attack",       0.05f),
+                p("amp_decay",        0.85f),
+                p("amp_sustain",      0.92f),
+                p("amp_release",      0.40f),
+                p("lfo1_target",      5.0f),    // Amp — subtle rotary feel
+                p("lfo1_shape",       0.0f),
+                p("lfo1_freq",        6.00f),
+                p("lfo1_amount",      0.10f),
+                }));
+            // JV Bell(4 presets)
+              
+                // ---------------------------------------------------------------------
+                // 82 — JV Marimba
+                // Warm wooden mallet. Short, percussive FM with sine carrier.
+                // ---------------------------------------------------------------------
+                presets.push_back(make("JV Marimba", "JV Bell", {
+                    p("dxfm_enable",   1.0f),
+                    p("dxfm_blend",    1.0f),
+                    p("dxfm_car_atk",  0.00f),
+                    p("dxfm_car_dec",  0.38f),
+                    p("dxfm_car_rel",  0.40f),
+                    p("dxfm_wave",     0.08f),
+                    p("dxfm_mod_init", 0.35f),
+                    p("dxfm_mod_dec",  0.20f),
+                    p("dxfm_mod_sus",  0.00f),
+                    p("dxfm_mod_rel",  0.50f),
+                    p("dxfm_mod_vel",  0.70f),
+                    p("dxfm_coarse",   0.28f),
+                    p("dxfm_fine",     0.00f),
+                    p("dxfm_mod_thru", 0.00f),
+                    p("dxfm_octave",   0.55f),
+                    p("dxfm_tune",     0.50f),
+                    p("flt_cutoff", 4500.0f),
+                    p("flt_reso",      0.15f),
+                    p("flt_env_amt",   0.25f),
+                    p("amp_attack",    0.00f),
+                    p("amp_decay",     0.40f),
+                    p("amp_sustain",   0.00f),
+                    p("amp_release",   0.40f),
+                    p("vel_to_amp",    0.85f),
+                    }));
+
+            // ---------------------------------------------------------------------
+            // 83 — JV Steel Drum
+            // Metallic pitched percussion. FM + ring mod character.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Steel Drum", "JV Bell", {
+                p("dxfm_enable",   1.0f),
+                p("dxfm_blend",    0.90f),
+                p("dxfm_car_atk",  0.00f),
+                p("dxfm_car_dec",  0.32f),
+                p("dxfm_car_rel",  0.50f),
+                p("dxfm_wave",     0.60f),
+                p("dxfm_mod_init", 0.05f),
+                p("dxfm_mod_dec",  0.15f),
+                p("dxfm_mod_sus",  0.35f),
+                p("dxfm_mod_rel",  0.72f),
+                p("dxfm_mod_vel",  1.00f),
+                p("dxfm_coarse",   0.46f),
+                p("dxfm_fine",     0.72f),
+                p("dxfm_mod_thru", 0.00f),
+                p("dxfm_octave",   0.60f),
+                p("dxfm_tune",     0.50f),
+                p("osc1_shape",    3.0f),
+                p("osc1_amount",   0.30f),
+                p("osc2_shape",    3.0f),
+                p("osc2_coarse",   7.0f),
+                p("osc2_amount",   0.25f),
+                p("rm_amount",     0.25f),
+                p("flt_cutoff", 4000.0f),
+                p("flt_reso",      0.45f),
+                p("flt_env_amt",   0.40f),
+                p("flt_type",      3.0f),    // BP12
+                p("amp_attack",    0.00f),
+                p("amp_decay",     0.32f),
+                p("amp_sustain",   0.05f),
+                p("amp_release",   0.45f),
+                p("vel_to_amp",    0.85f),
+                }));
+
+            // ---------------------------------------------------------------------
+            // 84 — JV Tinkle Bell
+            // High, sparkly bell. Lots of upper partials.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Tinkle Bell", "JV Bell", {
+                p("dxfm_enable",   1.0f),
+                p("dxfm_blend",    1.0f),
+                p("dxfm_car_atk",  0.00f),
+                p("dxfm_car_dec",  0.45f),
+                p("dxfm_car_rel",  0.65f),
+                p("dxfm_wave",     0.00f),
+                p("dxfm_mod_init", 0.40f),
+                p("dxfm_mod_dec",  0.50f),
+                p("dxfm_mod_sus",  0.20f),
+                p("dxfm_mod_rel",  0.85f),
+                p("dxfm_mod_vel",  0.50f),
+                p("dxfm_coarse",   0.37f),
+                p("dxfm_fine",     0.60f),
+                p("dxfm_mod_thru", 0.35f),
+                p("dxfm_octave",   0.80f),    // Octave up
+                p("dxfm_tune",     0.50f),
+                p("flt_cutoff", 6000.0f),
+                p("flt_reso",      0.10f),
+                p("amp_attack",    0.00f),
+                p("amp_decay",     0.45f),
+                p("amp_sustain",   0.05f),
+                p("amp_release",   0.65f),
+                p("vel_to_amp",    0.70f),
+                p("delay_mix",     0.20f),
+                p("delay_time_ms", 350.0f),
+                p("delay_feedback", 0.35f),
+                }));
+
+            // ---------------------------------------------------------------------
+            // 85 — JV Log Drum
+            // Deep wooden tuned drum. FM with sub-octave body.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Log Drum", "JV Bell", {
+                p("dxfm_enable",   1.0f),
+                p("dxfm_blend",    1.0f),
+                p("dxfm_car_atk",  0.00f),
+                p("dxfm_car_dec",  0.30f),
+                p("dxfm_car_rel",  0.45f),
+                p("dxfm_wave",     0.12f),
+                p("dxfm_mod_init", 0.48f),
+                p("dxfm_mod_dec",  0.10f),
+                p("dxfm_mod_sus",  0.15f),
+                p("dxfm_mod_rel",  0.50f),
+                p("dxfm_mod_vel",  0.55f),
+                p("dxfm_coarse",   0.32f),
+                p("dxfm_fine",     0.00f),
+                p("dxfm_mod_thru", 0.02f),
+                p("dxfm_octave",   0.38f),    // Slightly below unity
+                p("dxfm_tune",     0.50f),
+                p("amp_attack",    0.00f),
+                p("amp_decay",     0.32f),
+                p("amp_sustain",   0.00f),
+                p("amp_release",   0.45f),
+                p("vel_to_amp",    0.80f),
+                }));
+            //JV Pad(4 presets)
+              //  These use the Super Saw engine, which is a natural fit for the JV - 880's warmer pads.
+
+                
+                // ---------------------------------------------------------------------
+                // 86 — JV Warm Pad
+                // Classic warm analog pad. Slow, gentle, sustained.
+                // ---------------------------------------------------------------------
+                presets.push_back(make("JV Warm Pad", "JV Pad", {
+                    p("voice_config",     3.0f),    // Super Saw 7
+                    p("voice_spread",     0.55f),
+                    p("osc1_amount",      1.0f),
+                    p("osc2_amount",      0.0f),
+                    p("osc3_amount",      0.15f),   // Sub for weight
+                    p("flt_type",         0.0f),
+                    p("flt_model",        0.0f),
+                    p("flt_cutoff",    2400.0f),
+                    p("flt_reso",         0.25f),
+                    p("flt_env_amt",      0.30f),
+                    p("flt_keytrack",     0.30f),
+                    p("amp_attack",       0.45f),
+                    p("amp_decay",        0.70f),
+                    p("amp_sustain",      0.90f),
+                    p("amp_release",      0.85f),
+                    p("flt_attack",       0.50f),
+                    p("flt_decay",        0.65f),
+                    p("flt_sustain",      0.70f),
+                    p("flt_release",      0.85f),
+                    p("vel_to_amp",       0.25f),
+                    p("lfo1_target",      4.0f),    // Filter
+                    p("lfo1_freq",        0.12f),
+                    p("lfo1_amount",      0.18f),
+                    p("lfo1_delay",       0.60f),
+                    p("delay_mix",        0.20f),
+                    p("delay_time_ms",  550.0f),
+                    p("delay_feedback",   0.40f),
+                    }));
+
+            // ---------------------------------------------------------------------
+            // 87 — JV Ice Rain
+            // The classic JV-880 signature pad. Bright, crystalline, slow.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Ice Rain", "JV Pad", {
+                p("voice_config",     3.0f),
+                p("voice_spread",     0.70f),
+                p("osc1_amount",      1.0f),
+                p("osc2_amount",      0.0f),
+                p("osc3_amount",      0.10f),
+                p("flt_type",         0.0f),
+                p("flt_model",        0.0f),
+                p("flt_cutoff",    4200.0f),
+                p("flt_reso",         0.35f),
+                p("flt_env_amt",      0.40f),
+                p("flt_keytrack",     0.35f),
+                p("amp_attack",       0.55f),
+                p("amp_decay",        0.75f),
+                p("amp_sustain",      0.88f),
+                p("amp_release",      0.90f),
+                p("flt_attack",       0.60f),
+                p("flt_decay",        0.75f),
+                p("flt_sustain",      0.65f),
+                p("flt_release",      0.90f),
+                p("vel_to_amp",       0.25f),
+                p("lfo1_target",      4.0f),
+                p("lfo1_freq",        0.08f),
+                p("lfo1_amount",      0.25f),
+                p("lfo1_delay",       0.70f),
+                p("lfo2_target",      6.0f),    // Resonance
+                p("lfo2_freq",        0.15f),
+                p("lfo2_amount",      0.15f),
+                p("delay_mix",        0.35f),
+                p("delay_time_ms",  650.0f),
+                p("delay_feedback",   0.50f),
+                }));
+
+            // ---------------------------------------------------------------------
+            // 88 — JV Vocal Pad
+            // The "ahh" choir pad. Warm, breathy, sustained.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Vocal Pad", "JV Pad", {
+                p("voice_config",     3.0f),
+                p("voice_spread",     0.50f),
+                p("osc1_amount",      1.0f),
+                p("osc2_amount",      0.0f),
+                p("osc3_amount",      0.08f),
+                p("flt_type",         0.0f),
+                p("flt_model",        0.0f),
+                p("flt_cutoff",    2000.0f),
+                p("flt_reso",         0.30f),
+                p("flt_env_amt",      0.25f),
+                p("flt_keytrack",     0.30f),
+                p("amp_attack",       0.35f),
+                p("amp_decay",        0.65f),
+                p("amp_sustain",      0.90f),
+                p("amp_release",      0.80f),
+                p("flt_attack",       0.40f),
+                p("flt_decay",        0.60f),
+                p("flt_sustain",      0.70f),
+                p("flt_release",      0.80f),
+                p("vel_to_amp",       0.30f),
+                p("lfo1_target",      4.0f),
+                p("lfo1_freq",        0.20f),
+                p("lfo1_amount",      0.12f),
+                p("lfo1_delay",       0.50f),
+                p("delay_mix",        0.25f),
+                p("delay_time_ms",  500.0f),
+                p("delay_feedback",   0.45f),
+                }));
+
+            // ---------------------------------------------------------------------
+            // 89 — JV Sweep Pad
+            // Slow filter sweep pad. Evolving, cinematic.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Sweep Pad", "JV Pad", {
+                p("voice_config",     3.0f),
+                p("voice_spread",     0.65f),
+                p("osc1_amount",      1.0f),
+                p("osc2_amount",      0.0f),
+                p("osc3_amount",      0.15f),
+                p("flt_type",         0.0f),
+                p("flt_model",        1.0f),    // Chamberlin for character
+                p("flt_cutoff",    1200.0f),
+                p("flt_reso",         0.50f),
+                p("flt_env_amt",      0.75f),   // Big env swing = the sweep
+                p("flt_keytrack",     0.25f),
+                p("amp_attack",       0.30f),
+                p("amp_decay",        0.75f),
+                p("amp_sustain",      0.90f),
+                p("amp_release",      0.85f),
+                p("flt_attack",       0.70f),    // Slow filter attack = sweep
+                p("flt_decay",        0.85f),
+                p("flt_sustain",      0.60f),
+                p("flt_release",      0.85f),
+                p("vel_to_amp",       0.20f),
+                p("lfo1_target",      4.0f),
+                p("lfo1_freq",        0.10f),
+                p("lfo1_amount",      0.15f),
+                p("lfo1_delay",       0.40f),
+                p("delay_mix",        0.30f),
+                p("delay_time_ms",  700.0f),
+                p("delay_feedback",   0.45f),
+                }));
+            //JV Guitar(3 presets)
+              
+                // ---------------------------------------------------------------------
+                // 90 — JV Dist Guitar
+                // The JV-880's distorted lead guitar. Square + heavy distortion.
+                // ---------------------------------------------------------------------
+                presets.push_back(make("JV Dist Guitar", "JV Guitar", {
+                    p("voice_config",     0.0f),
+                    p("osc1_shape",       1.0f),    // Square
+                    p("osc1_amount",      1.0f),
+                    p("osc2_shape",       0.0f),    // Saw
+                    p("osc2_fine",        7.0f),
+                    p("osc2_amount",      0.60f),
+                    p("osc3_amount",      0.10f),
+                    p("osc_mix",          0.45f),
+                    p("pulse_width",      0.40f),
+                    p("flt_type",         1.0f),    // LP24
+                    p("flt_cutoff",    2600.0f),
+                    p("flt_reso",         0.35f),
+                    p("flt_env_amt",      0.50f),
+                    p("flt_keytrack",     0.30f),
+                    p("amp_attack",       0.00f),
+                    p("amp_decay",        0.65f),
+                    p("amp_sustain",      0.70f),
+                    p("amp_release",      0.35f),
+                    p("flt_attack",       0.00f),
+                    p("flt_decay",        0.45f),
+                    p("flt_sustain",      0.40f),
+                    p("flt_release",      0.35f),
+                    p("vel_to_amp",       0.65f),
+                    p("vel_to_filter",    0.40f),
+                    p("dist_on",          1.0f),
+                    p("dist_type",        1.0f),    // Hard
+                    p("dist_drive",       4.0f),
+                    p("dist_tone",     3500.0f),
+                    p("dist_mix",         0.55f),
+                    }));
+
+            // ---------------------------------------------------------------------
+            // 91 — JV Mute Guitar
+            // Funk mute guitar. Fast decay, HP filter, percussive.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Mute Guitar", "JV Guitar", {
+                p("voice_config",     0.0f),
+                p("osc1_shape",       1.0f),
+                p("osc1_amount",      1.0f),
+                p("osc2_shape",       0.0f),
+                p("osc2_amount",      0.35f),
+                p("osc2_fine",        4.0f),
+                p("osc_mix",          0.55f),
+                p("pulse_width",      0.30f),
+                p("flt_type",         3.0f),    // BP12
+                p("flt_cutoff",    1800.0f),
+                p("flt_reso",         0.55f),
+                p("flt_env_amt",      0.65f),
+                p("flt_keytrack",     0.30f),
+                p("amp_attack",       0.00f),
+                p("amp_decay",        0.20f),
+                p("amp_sustain",      0.00f),
+                p("amp_release",      0.15f),
+                p("flt_attack",       0.00f),
+                p("flt_decay",        0.18f),
+                p("flt_sustain",      0.00f),
+                p("flt_release",      0.15f),
+                p("vel_to_amp",       0.85f),
+                p("vel_to_filter",    0.45f),
+                }));
+
+            // ---------------------------------------------------------------------
+            // 92 — JV Jazz Guitar
+            // Warm hollow-body jazz guitar. Soft attack, no distortion.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Jazz Guitar", "JV Guitar", {
+                p("voice_config",     0.0f),
+                p("osc1_shape",       3.0f),    // Sine for fundamental
+                p("osc1_amount",      0.85f),
+                p("osc2_shape",       3.0f),    // Sine up an octave
+                p("osc2_coarse",     12.0f),
+                p("osc2_amount",      0.30f),
+                p("osc3_amount",      0.10f),
+                p("osc_mix",          0.50f),
+                p("flt_type",         0.0f),
+                p("flt_cutoff",    2400.0f),
+                p("flt_reso",         0.20f),
+                p("flt_env_amt",      0.35f),
+                p("amp_attack",       0.00f),
+                p("amp_decay",        0.55f),
+                p("amp_sustain",      0.25f),
+                p("amp_release",      0.45f),
+                p("flt_attack",       0.00f),
+                p("flt_decay",        0.45f),
+                p("flt_sustain",      0.20f),
+                p("flt_release",      0.40f),
+                p("vel_to_amp",       0.70f),
+                }));
+            //JV Woodwind(3 presets)
+              
+                // ---------------------------------------------------------------------
+                // 93 — JV Sax
+                // Solo alto sax. Warm, breathy, sustained.
+                // ---------------------------------------------------------------------
+                presets.push_back(make("JV Sax", "JV Woodwind", {
+                    p("voice_config",     0.0f),
+                    p("osc1_shape",       0.0f),
+                    p("osc1_amount",      1.0f),
+                    p("osc2_shape",       1.0f),
+                    p("osc2_amount",      0.40f),
+                    p("osc2_fine",        5.0f),
+                    p("pulse_width",      0.45f),
+                    p("osc3_amount",      0.10f),
+                    p("osc_mix",          0.55f),
+                    p("flt_type",         1.0f),
+                    p("flt_cutoff",    3000.0f),
+                    p("flt_reso",         0.30f),
+                    p("flt_env_amt",      0.40f),
+                    p("flt_keytrack",     0.30f),
+                    p("amp_attack",       0.04f),
+                    p("amp_decay",        0.85f),
+                    p("amp_sustain",      0.88f),
+                    p("amp_release",      0.35f),
+                    p("flt_attack",       0.06f),
+                    p("flt_decay",        0.60f),
+                    p("flt_sustain",      0.60f),
+                    p("flt_release",      0.40f),
+                    p("vel_to_amp",       0.60f),
+                    p("lfo1_target",      0.0f),
+                    p("lfo1_freq",        5.40f),
+                    p("lfo1_amount",      0.07f),
+                    p("lfo1_delay",       0.65f),
+                    }));
+
+            // ---------------------------------------------------------------------
+            // 94 — JV Oboe
+            // Double-reed character. Nasal, focused, with vibrato.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Oboe", "JV Woodwind", {
+                p("voice_config",     0.0f),
+                p("osc1_shape",       4.0f),    // 303-saw — richer harmonics
+                p("osc1_amount",      1.0f),
+                p("osc2_amount",      0.20f),
+                p("osc2_fine",        4.0f),
+                p("osc_mix",          0.65f),
+                p("flt_type",         3.0f),    // BP12 for reedy character
+                p("flt_cutoff",    1800.0f),
+                p("flt_reso",         0.55f),
+                p("flt_env_amt",      0.35f),
+                p("flt_keytrack",     0.40f),
+                p("amp_attack",       0.05f),
+                p("amp_decay",        0.85f),
+                p("amp_sustain",      0.88f),
+                p("amp_release",      0.30f),
+                p("flt_attack",       0.08f),
+                p("flt_decay",        0.60f),
+                p("flt_sustain",      0.55f),
+                p("flt_release",      0.35f),
+                p("vel_to_amp",       0.55f),
+                p("lfo1_target",      0.0f),
+                p("lfo1_freq",        6.20f),
+                p("lfo1_amount",      0.08f),
+                p("lfo1_delay",       0.55f),
+                }));
+
+            // ---------------------------------------------------------------------
+            // 95 — JV Recorder
+            // Soprano recorder. Simple, focused, breathy.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Recorder", "JV Woodwind", {
+                p("voice_config",     0.0f),
+                p("osc1_shape",       3.0f),    // Sine fundamental
+                p("osc1_amount",      0.85f),
+                p("osc2_shape",       3.0f),
+                p("osc2_coarse",     12.0f),
+                p("osc2_amount",      0.20f),
+                p("osc3_shape",       2.0f),    // Tiny bit of noise for breath
+                p("osc3_amount",      0.05f),
+                p("flt_type",         0.0f),
+                p("flt_cutoff",    4000.0f),
+                p("flt_reso",         0.15f),
+                p("flt_env_amt",      0.20f),
+                p("amp_attack",       0.04f),
+                p("amp_decay",        0.80f),
+                p("amp_sustain",      0.85f),
+                p("amp_release",      0.35f),
+                p("flt_attack",       0.05f),
+                p("flt_decay",        0.55f),
+                p("flt_sustain",      0.55f),
+                p("flt_release",      0.40f),
+                p("vel_to_amp",       0.50f),
+                p("lfo1_target",      0.0f),
+                p("lfo1_freq",        5.80f),
+                p("lfo1_amount",      0.05f),
+                p("lfo1_delay",       0.60f),
+                }));
+            //JV FX(2 presets)
+              
+                // ---------------------------------------------------------------------
+                // 96 — JV Scratch
+                // The JV-880 scratch effect. Noise + ring mod.
+                // ---------------------------------------------------------------------
+                presets.push_back(make("JV Scratch", "JV FX", {
+                    p("voice_config",     0.0f),
+                    p("osc1_shape",       4.0f),    // 303-saw
+                    p("osc1_amount",      1.0f),
+                    p("osc2_amount",      0.0f),
+                    p("osc3_shape",       2.0f),    // Noise
+                    p("osc3_amount",      0.45f),
+                    p("osc_mix",          0.60f),
+                    p("rm_amount",        0.35f),
+                    p("flt_type",         3.0f),    // BP12
+                    p("flt_cutoff",    2400.0f),
+                    p("flt_reso",         0.45f),
+                    p("flt_env_amt",      0.70f),
+                    p("amp_attack",       0.00f),
+                    p("amp_decay",        0.30f),
+                    p("amp_sustain",      0.00f),
+                    p("amp_release",      0.15f),
+                    p("flt_attack",       0.00f),
+                    p("flt_decay",        0.25f),
+                    p("flt_sustain",      0.00f),
+                    p("flt_release",      0.15f),
+                    p("vel_to_amp",       0.90f),
+                    p("vel_to_filter",    0.50f),
+                    }));
+
+            // ---------------------------------------------------------------------
+            // 97 — JV Fret Noise
+            // Nylon string fret squeak. Short noise burst.
+            // ---------------------------------------------------------------------
+            presets.push_back(make("JV Fret Noise", "JV FX", {
+                p("voice_config",     0.0f),
+                p("osc1_amount",      0.0f),
+                p("osc2_amount",      0.0f),
+                p("osc3_shape",       2.0f),    // Noise
+                p("osc3_amount",      1.0f),
+                p("flt_type",         3.0f),    // BP12
+                p("flt_cutoff",    3000.0f),
+                p("flt_reso",         0.60f),
+                p("flt_env_amt",      0.60f),
+                p("amp_attack",       0.00f),
+                p("amp_decay",        0.12f),
+                p("amp_sustain",      0.00f),
+                p("amp_release",      0.08f),
+                p("flt_attack",       0.00f),
+                p("flt_decay",        0.10f),
+                p("flt_sustain",      0.00f),
+                p("flt_release",      0.08f),
+                p("vel_to_amp",       0.95f),
+                p("vel_to_filter",    0.40f),
+                }));
             return presets;
         }();
 
